@@ -22,7 +22,8 @@ end
 
 def select_name_and_series_subgenres_of_authors
   "SELECT authors.name, subgenres.name
-  FROM charcters"
+  FROM charcters
+  "
 end
 
 def select_series_title_with_most_human_characters
