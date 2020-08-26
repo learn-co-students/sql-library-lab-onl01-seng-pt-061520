@@ -40,6 +40,6 @@ def select_series_title_with_most_human_characters
 end
 
 def select_character_names_and_number_of_books_they_are_in
-  "SELECT characters.name, COUNT (*) as book_count from characters_book
+  "SELECT characters.name, COUNT (*) as book_count from character_books
   "
 end
